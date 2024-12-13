@@ -29,7 +29,7 @@ class AdminRelatorio extends StatelessWidget {
                 final movimentacao = movimentacaoViewModel.movimentacoes[index];
                 return ListTile(
                   title: Text(
-                      'Produto: ${movimentacao.produto.nome}'), //verificar erros
+                      'Produto: ${movimentacao.idProdutos}'), //verificar erros
                   subtitle: Text('Data: ${movimentacao.dataSaida}'),
                   trailing: Text(
                       'Quantidade: ${movimentacao.quantidade}'), //verificar erros
